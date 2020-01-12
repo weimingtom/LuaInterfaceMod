@@ -44,10 +44,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LuaInterface511\LuaEngine.cs" />
     <Compile Include="LuaInterface511\Lua.cs" />
-    <Compile Include="LuaInterface511\LuaException.cs" />
-    <Compile Include="LuaInterface511\ObjectTranslator.cs" />
     <Compile Include="printf\Tools.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

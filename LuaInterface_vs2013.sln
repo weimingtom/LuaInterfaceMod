@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuaInterface_vs2013", "LuaInterface_vs2013.csproj", "{89ED9FAB-2828-4514-A208-ECD5D473E762}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49DEF1AA-3228-444B-A926-53AF97FA8497} = {49DEF1AA-3228-444B-A926-53AF97FA8497}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua511", "lua-5.1.1\lua511\lua511.vcxproj", "{49DEF1AA-3228-444B-A926-53AF97FA8497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{89ED9FAB-2828-4514-A208-ECD5D473E762}.Release|Win32.ActiveCfg = Release|Any CPU
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Debug|Win32.Build.0 = Debug|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Release|Any CPU.ActiveCfg = Release|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Release|Win32.ActiveCfg = Release|Win32
+		{49DEF1AA-3228-444B-A926-53AF97FA8497}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

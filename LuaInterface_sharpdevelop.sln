@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuaInterface", "LuaInterface.csproj", "{89ED9FAB-2828-4514-A208-ECD5D473E762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuaInterface_sharpdevelop", "LuaInterface_sharpdevelop.csproj", "{89ED9FAB-2828-4514-A208-ECD5D473E762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
